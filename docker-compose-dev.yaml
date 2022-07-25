@@ -2,11 +2,11 @@ version: '3.8'
 
 services:
 
-  nextt-service:
+  next-service:
     build:
       context: ./
       dockerfile: ./Dockerfile-dev
-    container_name: nextt-container
+    container_name: next-container
     volumes:
       - ./:/usr/src/app
     ports:
