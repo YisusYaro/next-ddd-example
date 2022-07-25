@@ -16,7 +16,7 @@ docker-compose -f docker-compose-dev.yaml build
 docker-compose -f docker-compose-dev.yaml up -d
 
 docker exec -it next-container npm i
-docker exec -it next-container npm rund dev
+docker exec -it next-container npm run dev
 ```
 
 ## Open your browser 🚀
